@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: 'Gatsby + Netlify CMS Starter',
+    title: 'Adrian Luk - Web Developer and Designer from Toronto',
     description:
-      'This repo contains an example business website that is built with Gatsby, and Netlify CMS.It follows the JAMstack architecture by using Git as a single source of truth, and Netlify for continuous deployment, and CDN distribution.',
+      'I\'m Adrian Luk, a full stack web developer and web designer from Toronto, Canada.I love creating and building websites that look great and people love to use.Contact me if you want a website or web application built.',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
@@ -69,7 +69,7 @@ module.exports = {
       resolve:'gatsby-plugin-purgecss', // purges all unused/unreferenced css rules
       options: {
         develop: true,            // Activates purging in npm run develop
-        purgeOnly: ['/all.sass'], // applies purging only on the bulma css file
+        purgeOnly: ['/all.scss'], // applies purging only on the bulma css file
       },
     }, // must be after other CSS plugins
     'gatsby-plugin-netlify', // make sure to keep it last in the array
